@@ -50,10 +50,6 @@
   vertical-align: middle;
 }
 
-/* --------------------- */
-/* Other styles          */
-/* --------------------- */
-
 * {
   box-sizing: border-box;
 }
@@ -86,7 +82,7 @@ body {
   height: 66px;
 }
 .hero-btn .btn {
-  background-color: #c713e2; /* Nuevo color de fondo */
+  background-color: #c713e2; 
  
   border: none;
   outline: none;
@@ -795,9 +791,9 @@ h1 {
   display: none;
 }
 #textoAmor {
-  font-size: 60px; /* Tamaño del texto aumentado */
+  font-size: 60px; 
   position: absolute;
-  top: -300px; /* Ajuste de la posición superior */
+  top: -300px; 
   left: 50%;
   transform: translateX(-50%);
   color: #c54384;
@@ -806,6 +802,6 @@ h1 {
 }
 
 #textoAmor::after {
-  content: ' ♥'; /* Agregamos el corazón después del texto */
-  color: red; /* Cambiamos el color del corazón, puedes ajustarlo según tu preferencia */
+  content: ' ♥';
+  color: red; 
 }

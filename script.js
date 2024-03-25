@@ -64,7 +64,6 @@ $('.hero-btn').click(function(){
 });
 
 function mostrarTextoAmor() {
-  // Cambia la ubicación de la página actual a 'galeria.html'
   window.location.href = "galeria.html";
 }
 
